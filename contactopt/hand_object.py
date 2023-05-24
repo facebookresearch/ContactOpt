@@ -133,6 +133,7 @@ class HandObject:
         self.obj_verts = ho.obj_verts
         self.obj_faces = ho.obj_faces
         self.obj_contact = ho.obj_contact
+        self.hand_contact = ho.hand_contact
 
         if aug_pose is not None:
             self.hand_pose += aug_pose
